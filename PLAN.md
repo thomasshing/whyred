@@ -6,8 +6,8 @@ Items marked **(by hand)** are ones Thomas writes first, without Claude Code, be
 
 ## Phase 0: Repo setup
 
-- [ ] Create the public repo, add the Apache-2.0 license and a short README
-- [ ] Add `CLAUDE.md` and `PLAN.md`
+- [x] Create the public repo, add the Apache-2.0 license and a short README
+- [x] Add `CLAUDE.md` and `PLAN.md`
 - [ ] Set up the Python project with `uv`, `ruff`, and `pytest`
 - [ ] Add a GitHub Actions workflow that runs lint and tests on every PR **(by hand)**
 - [ ] Turn on branch protection for `main`
