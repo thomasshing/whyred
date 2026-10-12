@@ -31,7 +31,7 @@ From phase 4 it also handles Kubernetes deploy failures, where the agent also re
 
 - Python 3.12, managed with `uv`
 - FastAPI for the webhook receiver and API
-- Claude API through the Anthropic Python SDK. The model name comes from the `WHYRED_MODEL` env var, never hardcoded.
+- The Anthropic Python SDK, pointed at a local Ollama server through `ANTHROPIC_BASE_URL` so development costs nothing. Ollama speaks the Anthropic Messages API, so the same code runs against the real Claude API by changing env vars. The model name comes from the `WHYRED_MODEL` env var, never hardcoded. See `docs/decisions.md` for what Ollama does not support.
 - MCP servers for tool access (GitHub, Kubernetes), from phase 3
 - Postgres for state, Redis for the job queue, from phase 4
 - Docker, Kubernetes (kind locally, k3s in production), Helm

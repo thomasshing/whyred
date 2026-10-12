@@ -19,7 +19,7 @@ For deploy failures, the agent also reads cluster state with read-only access. I
 
 ## Stack
 
-Python 3.12, FastAPI, the Claude API, MCP servers for GitHub and Kubernetes, Postgres, Redis, Helm, Argo CD, and OpenTelemetry with Prometheus and Grafana.
+Python 3.12, FastAPI, the Anthropic SDK against a local Ollama model, MCP servers for GitHub and Kubernetes, Postgres, Redis, Helm, Argo CD, and OpenTelemetry with Prometheus and Grafana.
 
 ## Why
 
