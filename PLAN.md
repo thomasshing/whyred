@@ -8,10 +8,10 @@ Items marked **(by hand)** are ones Thomas writes first, without Claude Code, be
 
 - [x] Create the public repo, add the Apache-2.0 license and a short README
 - [x] Add `CLAUDE.md` and `PLAN.md`
-- [ ] Set up the Python project with `uv`, `ruff`, and `pytest`
-- [ ] Add a GitHub Actions workflow that runs lint and tests on every PR **(by hand)**
-- [ ] Turn on branch protection for `main`
-- [ ] Add `.gitignore` and `.env.example`
+- [x] Set up the Python project with `uv`, `ruff`, and `pytest`
+- [x] Add a GitHub Actions workflow that runs lint and tests on every PR **(by hand)**
+- [x] Turn on branch protection for `main`
+- [x] Add `.gitignore` and `.env.example`
 
 Done when: a PR with a failing test is blocked from merging.
 
